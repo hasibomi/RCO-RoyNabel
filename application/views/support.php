@@ -3,107 +3,67 @@
 	<!-- Menu -->
     <?php $this->load->view('layout/menu'); ?>
 
-    <br>
-    <br>
-    <br>
-
     <div class="container">
+		
+		<div class="row">
+			<div class="col-md-11">
+	    		<h1 class="page-header">Welcome to RCO Support <small>Get support from us</small> </h1>
+	    		<p>Learn about RCO products, view online manuals, get the latest downloads, and more. Please call us at 800-972-3027 toll free </p>
+	    		<p>in the United States or 310-451-3735.</p>
+	    	</div>
+	    	<div class="col-md-1">
+	    		<a href="<?= base_url('support/index.php')?>" target="_blank">
+					<img src="<?= base_url()?>public/images/helpicon.png" class="img-responsive" width="50" height="50" alt="Help" style="margin-top: 10%;">
+	    		</a>
+	    	</div>
+    	</div> <!-- /.row -->
 
     	<div class="row">
+    		<div class="col-md-12">
+    			<div class="portfolio-item">
+    				<div class="row">
+    					<div class="col-md-4">
+    						<a href="<?= site_url('home/mobilesupport')?>">
+    							<img class="img-responsive" src="<?php echo base_url() ?>public/images/Mobile_state1_02.png">
+    						</a>
+    						<h4 id="mobileoffice"><a href="<?= site_url('home/mobilesupport')?>" class="custom-a">Mobile Office</a></h4>
+    					</div> <!-- /.col-md-4 -->
+    					<div class="col-md-4">
+    						<a href="">
+    							<img class="img-responsive" src="<?php echo base_url() ?>public/images/csveditor.png">
+    						</a>
+    						<h4 id="csv"><a href="<?= site_url('home/mobilesupport')?>" class="custom-a">CSV Editor</a></h4>
+    					</div> <!-- /.col-md-4 -->
+    					<div class="col-md-4">
+    						<a href="">
+    							<img class="img-responsive" src="<?php echo base_url() ?>public/images/Label_state1_02.png">
+    						</a>
+    						<h4 id="labels"><a href="<?= site_url('home/mobilesupport')?>" class="custom-a">Labels</a></h4>
+    					</div> <!-- /.col-md-4 -->
+    				</div> <!-- /.row -->
 
-            <div class="panel panel-primary">
+    				<br>
+    				<br>
+    				<br>
 
-            	<div class="panel-heading">
-                	<h3 class="panel-title">Support | <a href="<?= base_url('support/index.php')?>" target="_blank">Help tickets</a></h3>
-                </div>
-            	<div class="panel-body">
-            		
-            		<div class="col-md-3">
-            			<!-- Nav tabs -->
-	                    <ul class="nav nav-tabs nav-stacked nav-pills" role="tablist">
-	                      <li class="active"><a href="#downloads" role="tab" data-toggle="tab">Downloads</a></li>
-	                      <li><a href="#contact" role="tab" data-toggle="tab">Contact</a></li>
-	                    </ul>
-            		</div>
-            		
-            		<div class="col-md-9">
-	                    <!-- Tab panes -->
-	                    <div class="tab-content">
-	
-	                        <div class="tab-pane active fade in" id="downloads">
-	                            <div class="table-responsive">
-	                                <table class="table table-hover table-striped">
-	                                    <thead>
-	                                        <tr>
-	                                            <th>#</th>
-	                                            <th>Size</th>
-	                                            <th>File</th>
-	                                        </tr>
-	                                    </thead>
-	                                    <tbody>
-	                                        <tr>
-	                                            <td>1</td>
-	                                            <td>10mb</td>
-	                                            <td><a href="http://www.rco.com/download/ultimategolf.zip">ultimategolf.zip</a></td>
-	                                        </tr>
-	                                        <tr>
-	                                            <td>2</td>
-	                                            <td>4mb</td>
-	                                            <td><a href="http://www.rco.com/download/Bill%20for%20QuickBooks.msi">Bill for QuickBooks.msi</a></td>
-	                                        </tr>
-	                                        <tr>
-	                                            <td>3</td>
-	                                            <td>2mb</td>
-	                                            <td><a href="http://www.rco.com/download/CSVEditorDistrib20140830.zip">QuickBooksSetupReadme.pdf</a></td>
-	                                        </tr>
-	                                        <tr>
-	                                            <td>4</td>
-	                                            <td>2mb</td>
-	                                            <td><a href="http://www.rco.com/download/CSVEditorDistrib20140830.zip">CSVEditorDistrib20140830.zip</a></td>
-	                                        </tr>
-	                                        <tr>
-	                                            <td>5</td>
-	                                            <td>338mb</td>
-	                                            <td><a href="http://www.rco.com/download/ALabelDistrib20140424.zip">ALabelDistrib20140424.zip</a></td>
-	                                        </tr>
-	                                    </tbody>
-	                                </table>
-	                            </div>
-	                        </div>
-	                        <!-- /#downloads -->
-	
-	                        <div class="tab-pane fade" id="contact">
-	                            <div class="col-md-6">
-	                                <h3>Call RCO</h3>
-	                                <p>
-	                                    <i class="fa fa-phone"></i> 
-	                                    <abbr title="Phone">Phone</abbr>: +1.310.451.3735
-	                                </p>
-	                                <p>
-	                                    <i class="fa fa-phone"></i> 
-	                                    <abbr title="Phone">Toll free</abbr>: 800.972.3027 (U.S. & Canada Only)
-	                                </p>
-	                                <h3>Business Hours</h3>
-	                                <p>
-	                                    <i class="fa fa-clock-o"></i> 
-	                                    <abbr title="Hours">H</abbr>: 8:00am-5:00pm PST, Monday-Friday
-	                                </p>
-	                                <h3>Email Addresses</h3>
-	                                <p>
-	                                    <i class="fa fa-envelope-o"></i> 
-	                                    <abbr title="Email">E</abbr>: 
-	                                    <a href="mailto:royn@rco.com">Roy Nabel - royn@rco.com</a>
-	                                </p>
-	                            </div>
-	                        </div>
-	                        <!-- /#contact -->
-	                    </div>
-	                    <!-- /.tab-content -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    				<div class="row">
+    					<div class="col-md-4">
+    						<a href="">
+    							<img class="img-responsive" src="<?php echo base_url() ?>public/images/Scan_state1_02.png">
+    						</a>
+    						<h4 id="scan"><a href="<?= site_url('home/mobilesupport')?>" class="custom-a">Scan</a></h4>
+    					</div> <!-- /.col-md-4 -->
+    					<div class="col-md-4">
+    						<a href="">
+    							<img class="img-responsive" src="<?php echo base_url() ?>public/images/Publish_state1_02.png">
+    						</a>
+    						<h4 id="publish"><a href="<?= site_url('home/mobilesupport')?>" class="custom-a">Publish</a></h4>
+    					</div> <!-- /.col-md-4 -->
+    				</div> <!-- /.row -->
+    			</div> <!-- /.portfolio-item -->
+    		</div> <!-- /.col-md-12 -->
+    	</div> <!-- /.row -->
+    </div> <!-- /.container -->
 
     <br>
     <br>

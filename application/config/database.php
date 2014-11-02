@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'rco_user'; //rco_user
-$db['default']['password'] = 'Up7hJKdjmG8XXmPu'; //Up7hJKdjmG8XXmPu
-$db['default']['database'] = 'rco_rcoweb';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'hasibomi_rcoweb';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

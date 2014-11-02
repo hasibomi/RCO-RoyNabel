@@ -1,0 +1,21 @@
+.custom-a {
+	color: black;
+}
+.custom-a:hover {
+	color: black;
+}
+#mobileoffice {
+	margin-left: 10px;
+}
+#csv {
+	margin-left: 35px;
+}
+#labels {
+	margin-left: 58px;
+}
+#scan {
+	margin-left: 35px;
+}
+#publish {
+	margin-left: 38px;
+}
