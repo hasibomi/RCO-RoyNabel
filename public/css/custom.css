@@ -32,6 +32,8 @@
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 1px #cccccc;
+    -moz-box-shadow: 0 0 1px #cccccc;
+    -webkit-box-shadow: 0 0 1px #cccccc;
 }
 .sidebar {
     border-right: 1px solid #cccccc;
