@@ -1,21 +1,56 @@
 .custom-a {
-	color: black;
+    color: black;
 }
 .custom-a:hover {
-	color: black;
+    color: black;
 }
 #mobileoffice {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 #csv {
-	margin-left: 35px;
+    margin-left: 35px;
 }
 #labels {
-	margin-left: 58px;
+    margin-left: 58px;
 }
 #scan {
-	margin-left: 35px;
+    margin-left: 35px;
 }
 #publish {
-	margin-left: 38px;
+    margin-left: 38px;
+}
+.custom-container-fuild {
+    width: 100%;
+    background-color: #eee;
+    overflow: hidden;
+    height: 100%;
+}
+.custom-container {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #cccccc;
+}
+.sidebar {
+    border-right: 1px solid #cccccc;
+    margin-top: 0;
+}
+.sidebar ul {
+    border: none;
+}
+.nav-pills > li > a {
+    width: 117%;
+    margin-left: -20px;
+}
+.nav-pills > li > a:hover {
+    width: 117%;
+    margin-left: -20px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+    width: 117%;
+    margin-left: -20px;
 }

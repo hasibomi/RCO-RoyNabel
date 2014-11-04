@@ -62,6 +62,46 @@ class Home extends CI_Controller
 	}
 
 	/**
+	 * Mobile Office support page
+	 */
+	public function mobilesupport()
+	{
+		$this->load->view('mobilesupport');
+	}
+
+	/**
+	 * CSV Editor support page
+	 */
+	public function csvsupport()
+	{
+		$this->load->view('csvsupport');
+	}
+
+	/**
+	 * Labels support page
+	 */
+	public function labelsupport()
+	{
+		$this->load->view('labelsupport');
+	}
+
+	/**
+	 * Scan support page
+	 */
+	public function scansupport()
+	{
+		$this->load->view('scansupport');
+	}
+
+	/**
+	 * Publish support page
+	 */
+	public function publishsupport()
+	{
+		$this->load->view('publishsupport');
+	}
+
+	/**
 	 * Contact page
 	 */
 	public function contact() {
