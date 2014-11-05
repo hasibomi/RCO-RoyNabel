@@ -126,35 +126,35 @@ class Login extends CI_Controller {
 	 * Mobile office login
 	 */
 	public function mobileoffice() {
-		$this->load->view('mobile_login');
+		$this->load->view('Products/Mobile/mobile_login');
 	}
 
 	/**
 	 * Csv Editor login
 	 */
 	public function csveditor() {
-		$this->load->view('csv_login');
+		$this->load->view('Products/CSV/csv_login');
 	}
 
 	/**
 	 * Label login
 	 */
 	public function label() {
-		$this->load->view('label_login');
+		$this->load->view('Products/Label/label_login');
 	}
 
 	/**
 	 * Scan login
 	 */
 	public function scan() {
-		$this->load->view('scan_login');
+		$this->load->view('Products/Scan/scan_login');
 	}
 
 	/**
 	 * Publish login
 	 */
 	public function publish() {
-		$this->load->view('publish_login');
+		$this->load->view('Products/Publish/publish_login');
 	}
 
 	/**

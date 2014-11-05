@@ -1,117 +1,99 @@
 <?php
 /**
-* Main page
-*/
+ * Main page
+ */
 class Home extends CI_Controller
 {
 	/**
 	 * Index page
 	 */
-	public function index()
-	{
-		$this->load->view('index');
-	}
+	public function index() { $this->load->view('index'); }
 
 	/**
 	 * Products page
 	 */
-	public function products() {
-		$this->load->view('products');
-	}
+	public function products() { $this->load->view('Products/products'); }
 
 	/**
 	 * Mobile office
 	 */
-	public function mobileoffice() {
-		$this->load->view('mobileoffice');
-	}
+	public function mobileoffice() { $this->load->view('Products/Mobile/mobileoffice'); }
 
 	/**
 	 * CSV editor
 	 */
-	public function csveditor() {
-		$this->load->view('csveditor');
-	}
+	public function csveditor() { $this->load->view('Products/CSV/csveditor'); }
 
 	/**
 	 * Scan page
 	 */
-	public function scan() {
-		$this->load->view('scan');
-	}
+	public function scan() { $this->load->view('Products/Scan/scan'); }
 
 	/**
 	 * Label page
 	 */
-	public function label() {
-		$this->load->view('label');
-	}
+	public function label() { $this->load->view('Products/Label/label'); }
 
 	/**
 	 * Publish page
 	 */
-	public function publish() {
-		$this->load->view('publish');
-	}
+	public function publish() { $this->load->view('Products/Publish/publish'); }
 
 	/**
 	 * Support page
 	 */
-	public function support() {
-		$this->load->view('support');
-	}
+	public function support() { $this->load->view('Support/support'); }
 
 	/**
 	 * Mobile Office support page
 	 */
-	public function mobilesupport()
-	{
-		$this->load->view('mobilesupport');
-	}
+	public function mobilesupport() { $this->load->view('Support/Mobile/mobilesupport'); }
+    public function mobilemanual() { $this->load->view('Support/Mobile/manual'); }
+    public function mobilephone() { $this->load->view('Support/Mobile/contact'); }
+    public function mobilevideo() { $this->load->view('Support/Mobile/video'); }
 
 	/**
 	 * CSV Editor support page
 	 */
-	public function csvsupport()
-	{
-		$this->load->view('csvsupport');
-	}
+	public function csvsupport() { $this->load->view('Support/CSV/csvsupport'); }
+    public function csvmanual() { $this->load->view('Support/CSV/manual'); }
+    public function csvphone() { $this->load->view('Support/CSV/contact'); }
+    public function csvvideo() { $this->load->view('Support/CSV/video'); }
 
 	/**
 	 * Labels support page
 	 */
-	public function labelsupport()
-	{
-		$this->load->view('labelsupport');
-	}
+	public function labelsupport() { $this->load->view('Support/Label/labelsupport'); }
+    public function labelmanual() { $this->load->view('Support/Label/manual'); }
+    public function labelphone() { $this->load->view('Support/Label/contact'); }
+    public function labelvideo() { $this->load->view('Support/Label/video'); }
 
 	/**
 	 * Scan support page
 	 */
-	public function scansupport()
-	{
-		$this->load->view('scansupport');
-	}
+	public function scansupport() { $this->load->view('Support/Scan/scansupport'); }
+    public function scanmanual() { $this->load->view('Support/Scan/manual'); }
+    public function scanphone() { $this->load->view('Support/Scan/contact'); }
+    public function scanvideo() { $this->load->view('Support/Scan/video'); }
 
 	/**
 	 * Publish support page
 	 */
-	public function publishsupport()
-	{
-		$this->load->view('publishsupport');
-	}
+	public function publishsupport() { $this->load->view('Support/Publish/publishsupport'); }
+    public function publishmanual() { $this->load->view('Support/Publish/manual'); }
+    public function publishphone() { $this->load->view('Support/Publish/contact'); }
+    public function publishvideo() { $this->load->view('Support/Publish/video'); }
 
 	/**
 	 * Contact page
 	 */
-	public function contact() {
-		$this->load->view('contact');
-	}
+	public function contact() { $this->load->view('contact'); }
 
 	/**
 	 * Contact form submission
 	 */
-	public function contact_submission() {
+	public function contact_submission()
+    {
 		$email = $this->input->post('contact_email');
 		$name = $this->input->post('contact_name');
 		$phone = $this->input->post('contact_phone');
@@ -124,9 +106,12 @@ class Home extends CI_Controller
 		$this->form_validation->set_rules('contact_phone', 'Phone Number', 'required|trim|xss-clean');
 		$this->form_validation->set_rules('contact_message', 'Message', 'required|trim|xss-clean');
 
-		if ($this->form_validation->run() == false) {
+		if ($this->form_validation->run() == false)
+        {
 			$this->contact();
-		} else {
+		}
+        else
+        {
 			$this->load->library('email');
 			
 			$this->email->from($email);
@@ -142,5 +127,7 @@ class Home extends CI_Controller
 			redirect('home/contact');
 		}
 	}
+
+
 }
 ?>

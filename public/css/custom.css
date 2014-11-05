@@ -19,16 +19,22 @@
 #publish {
     margin-left: 38px;
 }
+#support {
+    border-left: 1px solid #cccccc;
+    overflow: auto;
+    height: 100%;
+}
 .custom-container-fuild {
     width: 100%;
     background-color: #eee;
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
 }
 .custom-container {
     background-color: #fff;
     border: 1px solid #cccccc;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 1px #cccccc;
@@ -36,7 +42,7 @@
     -webkit-box-shadow: 0 0 1px #cccccc;
 }
 .sidebar {
-    border-right: 1px solid #cccccc;
+    border: none;
     margin-top: 0;
 }
 .sidebar ul {
