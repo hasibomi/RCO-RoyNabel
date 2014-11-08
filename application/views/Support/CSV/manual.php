@@ -43,10 +43,10 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
-                        <h3>Welcome</h3>
+                    <div class="col-md-12">
+                        <h3 class="page-header">Please read the manual</h3>
                         <p>
-                            <a href="<?= site_url('home/csvvideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/csvmanual'); ?>">read the manual</a> and <a href="<?= site_url('home/csvphone'); ?>">contact support</a>
+                            <a href="<?= base_url('public/manuals/csveditor/HelpMain.pdfd'); ?>">Read</a>
                         </p>
                         <img src="<?= base_url(); ?>public/images/csveditor.png" >
                     </div>

@@ -14,6 +14,7 @@
 	    	<div class="col-md-1">
 	    		<a href="<?= base_url('support/index.php')?>" target="_blank">
 					<img src="<?= base_url()?>public/images/helpicon.png" class="img-responsive" width="50" height="50" alt="Help" style="margin-top: 10%;">
+                    <p id="help">Help</p>
 	    		</a>
 	    	</div>
     	</div> <!-- /.row -->

@@ -43,13 +43,31 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <h3 class="page-header">Learn Mobile Office</h3>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
+                        
+                        <div class="table-responsive">
+                        	<table class="table table-condensed table-striped table-hover">
+                            	<thead>
+                                	<tr>
+                                		<th>Title</th>
+                                		<th>Description</th>
+                                		<th>Time (min:sec)</th>
+                                		<th>YouTube</th>
+                                		<th>YouTube Link</th>
+                                	</tr>
+                                </thead>
+                                
+                                <tbody>
+                                	<tr>
+                                		<td>Overview</td>
+                                		<td>Share files securely with your customrer. Your customers can upload files and you receive email alerts when new files arrive.</td>
+                                		<td>4:09</td>
+                                		<td><a href="https://www.youtube.com/watch?v=m_PzW0bLM8U">Video</a></td>
+                                		<td>https://www.youtube.com/watch?v=m_PzW0bLM8U</td>
+                                	</tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

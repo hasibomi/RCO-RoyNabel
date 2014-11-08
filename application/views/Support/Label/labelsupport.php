@@ -43,8 +43,8 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
-                        <h3>Welcome</h3>
+                    <div class="col-md-12">
+                        <h3 class="page-header">Welcome</h3>
                         <p>
                             <a href="<?= site_url('home/labelvideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/labelmanual'); ?>">read the manual</a> and <a href="<?= site_url('home/labelphone'); ?>">contact support</a>
                         </p>

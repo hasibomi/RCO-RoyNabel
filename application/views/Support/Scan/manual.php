@@ -43,10 +43,10 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
-                        <h3>Welcome</h3>
+                    <div class="col-md-12">
+                        <h3>Please read the manual</h3>
                         <p>
-                            <a href="<?= site_url('home/scanvideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/scanmanual'); ?>">read the manual</a> and <a href="<?= site_url('home/scanphone'); ?>">contact support</a>
+                            <a href="<?= base_url('public/manuals/scan/scan.pdf'); ?>">Read</a>
                         </p>
                         <img src="<?= base_url(); ?>public/images/Scan_state1_02.png" >
                     </div>

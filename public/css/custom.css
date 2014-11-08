@@ -4,6 +4,9 @@
 .custom-a:hover {
     color: black;
 }
+#help {
+	margin-left: 12px;
+}
 #mobileoffice {
     margin-left: 10px;
 }

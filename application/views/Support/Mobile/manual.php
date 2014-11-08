@@ -43,11 +43,12 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
-                        <h3>Welcome</h3>
+                    <div class="col-md-12">
+                        <h3 class="page-header">Please read the manuals</h3>
                         <p>
-                            <a href="<?= site_url('home/mobilevideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/mobilemanual'); ?>">read the manual</a> and <a href="<?= site_url('home/mobilephone'); ?>">contact support</a>
-                        </p>
+                            <a href="<?= base_url('public/manuals/mobileoffice/MobileOfficeForIpad.pdf'); ?>">1. For iPad</a></p>
+                            <p><a href="<?= base_url('public/manuals/mobileoffice/MobileOfficeForiPhone.pdf'); ?>">2. For iPhone</a></p>
+                            <p><a href="<?= base_url('public/manuals/mobileoffice/MobileOfficeForQuickbooks.pdf'); ?>">3. For Quickbooks</a></p>
                         <img src="<?= base_url(); ?>public/images/mobile_office.png" >
                     </div>
                 </div>

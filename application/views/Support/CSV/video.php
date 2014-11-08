@@ -7,7 +7,7 @@
             <h1 class="page-header">CSV Editor Support</h1>
 
             <div class="custom-container">
-                <div class="col-md-3 col-sm-4 sidebar">
+                <div class="col-md-3 col-sm-2 sidebar">
                     <ul class="nav nav-stacked nav-pills">
                         <li>
                             <a href="<?= site_url('home/csvsupport'); ?>">
@@ -43,22 +43,41 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <h3 class="page-header">Learn CSV Editor</h3>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
+                        
+                        <div class="table-responsive">
+                        	<table class="table table-condensed table-striped table-hover">
+                            	<thead>
+                                	<tr>
+                                		<th>Title</th>
+                                		<th>Description</th>
+                                		<th>Time (min:sec)</th>
+                                		<th>YouTube</th>
+                                		<th>YouTube Link</th>
+                                	</tr>
+                                </thead>
+                                
+                                <tbody>
+                                	<tr>
+                                		<td>Getting Started</td>
+                                		<td>CSVEditor has many functions that help you work with csv files. If you have to clean up data for a conversion or create test data files you will appreciate all the functions like detecting duplicates or creating random names or number sequences.</td>
+                                		<td>2:52</td>
+                                		<td><a href="https://www.youtube.com/watch?v=NWqr4qNve1w">Video</a></td>
+                                		<td>https://www.youtube.com/watch?v=NWqr4qNve1w</td>
+                                	</tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
-                        </div>
+                        
                     </div>
                 </div>
-            </div>
+             </div>
+          </div>
             <br>
             <br>
-        </div>
+      </div>
         <!-- /.container -->
-    </div>
 
     <!-- Footer -->
 <?php $this->load->view('layout/footer'); ?>

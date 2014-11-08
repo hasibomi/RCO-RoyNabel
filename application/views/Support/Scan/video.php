@@ -43,13 +43,31 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <h3 class="page-header">Learn Scan</h3>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
+                        
+                        <div class="table-responsive">
+                        	<table class="table table-condensed table-striped table-hover">
+                            	<thead>
+                                	<tr>
+                                		<th>Title</th>
+                                		<th>Description</th>
+                                		<th>Time (min:sec)</th>
+                                		<th>YouTube</th>
+                                		<th>YouTube Link</th>
+                                	</tr>
+                                </thead>
+                                
+                                <tbody>
+                                	<tr>
+                                		<td>Overview</td>
+                                		<td>Scan all your office paper and convert to searchable PDF files.</td>
+                                		<td>4:29</td>
+                                		<td><a href="https://www.youtube.com/watch?v=4ax-HxG-9lU">Video</a></td>
+                                		<td>https://www.youtube.com/watch?v=4ax-HxG-9lU</td>
+                                	</tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

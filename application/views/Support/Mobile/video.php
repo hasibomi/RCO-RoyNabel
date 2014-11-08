@@ -43,13 +43,45 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <h3 class="page-header">Learn Mobile Office</h3>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <iframe class="img-responsive" src="//www.youtube.com/embed/mGb4R5rsAGA" frameborder="0" allowfullscreen></iframe>
+                        
+                        <div class="table-responsive">
+                        	<table class="table table-condensed table-striped table-hover">
+                            	<thead>
+                                	<tr>
+                                		<th>Title</th>
+                                		<th>Description</th>
+                                		<th>Time (min:sec)</th>
+                                		<th>YouTube</th>
+                                		<th>YouTube Link</th>
+                                	</tr>
+                                </thead>
+                                
+                                <tbody>
+                                	<tr>
+                                		<td>Technicians</td>
+                                		<td>Automate your workforce using smart phones or tables (android and apple). Generate invoices, track expenses, optimal job route, track inventory, time and billing, and synchronize to QuickBooks. Call 310-451-3735 for more information or to watch a demo.</td>
+                                		<td>1:00</td>
+                                		<td><a href="https://www.youtube.com/watch?v=KQnmLfohk0I">Video</a></td>
+                                		<td>https://www.youtube.com/watch?v=KQnmLfohk0I</td>
+                                	</tr>
+                                    <tr>
+                                		<td>Inventory</td>
+                                		<td>RCO Inventory lets you do inventory using an ipad and bluetooth scanner.</td>
+                                		<td>5:00</td>
+                                		<td><a href="https://www.youtube.com/watch?v=Rk_BfCb9nJY">Video</a></td>
+                                		<td>https://www.youtube.com/watch?v=Rk_BfCb9nJY</td>
+                                	</tr>
+                                    <tr>
+                                		<td>Invoices</td>
+                                		<td>Keep working when out of the office using Mobile Office. Get paid with credit cards, generate invoices, record your time and billing and sync to Quickbooks</td>
+                                		<td>8:07</td>
+                                		<td><a href="https://www.youtube.com/watch?v=38x1rhbeXTs">Video</a></td>
+                                		<td>https://www.youtube.com/watch?v=38x1rhbeXTs</td>
+                                	</tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

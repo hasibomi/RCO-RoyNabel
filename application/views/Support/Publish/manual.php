@@ -44,9 +44,9 @@
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
                     <div class="col-md-9">
-                        <h3>Welcome</h3>
+                        <h3>Please read the manual</h3>
                         <p>
-                            <a href="<?= site_url('home/publishvideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/publishmanual'); ?>">read the manual</a> and <a href="<?= site_url('home/publishphone'); ?>">contact support</a>
+                            <a href="<?= base_url('public/manuals/publish/SyncUserGuide.pdf'); ?>">Read</a>
                         </p>
                         <img src="<?= base_url(); ?>public/images/Publish_state1_02.png" >
                     </div>

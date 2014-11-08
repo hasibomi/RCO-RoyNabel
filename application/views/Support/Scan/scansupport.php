@@ -43,7 +43,7 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <h3>Welcome</h3>
                         <p>
                             <a href="<?= site_url('home/scanvideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/scanmanual'); ?>">read the manual</a> and <a href="<?= site_url('home/scanphone'); ?>">contact support</a>

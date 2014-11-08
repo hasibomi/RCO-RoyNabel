@@ -43,7 +43,7 @@
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <h3 class="page-header">Call RCO</h3>
                         <p><i class="fa fa-phone"></i> <abbr title="Phone">Phone</abbr>: +1.310.451.3735</p>
                         <p><i class="fa fa-phone"></i> <abbr title="Phone">Toll free</abbr>: 800.972.3027 (U.S. & Canada Only)</p>
