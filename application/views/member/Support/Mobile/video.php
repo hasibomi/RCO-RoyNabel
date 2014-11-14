@@ -1,28 +1,28 @@
-<?php $this->load->view('layout/header'); ?>
+<?php $this->load->view('member/layout/header'); ?>
 
     <!-- Menu -->
-<?php $this->load->view('layout/menu'); ?>
+<?php $this->load->view('member/layout/menu'); ?>
     <div class="custom-container-fuild">
         <div class="container">
-            <h1 class="page-header">Publish Support</h1>
+            <h1 class="page-header">Mobile Office Support</h1>
 
             <div class="custom-container">
                 <div class="col-md-3 col-sm-4 sidebar">
                     <ul class="nav nav-stacked nav-pills">
                         <li>
-                            <a href="<?= site_url('home/publishsupport'); ?>">
-                                <img src="<?= base_url(); ?>public/images/Publish_state1_02.png" width="30" height="30" >
+                            <a href="<?= site_url('member/home/mobilesupport'); ?>">
+                                <img src="<?= base_url(); ?>public/images/mobile_office.png" width="30" height="30" >
                                 Welcome
                             </a>
                         </li>
                         <li>
-                            <a href="<?= site_url('home/publishmanual'); ?>">
+                            <a href="<?= site_url('member/home/mobilemanual'); ?>">
                                 <img src="<?= base_url(); ?>public/images/manual.png" width="30" height="30" >
                                 Manuals
                             </a>
                         </li>
                         <li>
-                            <a href="<?= site_url('home/publishphone'); ?>">
+                            <a href="<?= site_url('member/home/mobilephone'); ?>">
                                 <img src="<?= base_url(); ?>public/images/phone.png" width="30" height="30" >
                                 Contact Support
                             </a>
@@ -34,9 +34,14 @@
                             </a>
                         </li>
                         <li class="active">
-                            <a href="<?= site_url('home/publishvideo'); ?>">
+                            <a href="<?= site_url('member/home/mobilevideo'); ?>">
                                 <img src="<?= base_url(); ?>public/images/youtube.png" width="40" height="30" >
                                 Videos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= site_url('member/home/mobiledownload'); ?>">
+                                <img src="<?= base_url(); ?>public/images/download.png" alt="" width="30" height="30"> Downloads
                             </a>
                         </li>
                     </ul>
@@ -59,10 +64,22 @@
                                 
                                 <tbody>
                                 	<tr>
-                                		<td>Overview</td>
-                                		<td>Share files securely with your customrer. Your customers can upload files and you receive email alerts when new files arrive.</td>
-                                		<td>4:09</td>
-                                		<td><a href="https://www.youtube.com/watch?v=m_PzW0bLM8U">Video</a></td>
+                                		<td>Technicians</td>
+                                		<td>Automate your workforce using smart phones or tables (android and apple). Generate invoices, track expenses, optimal job route, track inventory, time and billing, and synchronize to QuickBooks. Call 310-451-3735 for more information or to watch a demo.</td>
+                                		<td>1:00</td>
+                                		<td><a href="https://www.youtube.com/watch?v=KQnmLfohk0I">Video</a></td>
+                                	</tr>
+                                    <tr>
+                                		<td>Inventory</td>
+                                		<td>RCO Inventory lets you do inventory using an ipad and bluetooth scanner.</td>
+                                		<td>5:00</td>
+                                		<td><a href="https://www.youtube.com/watch?v=Rk_BfCb9nJY">Video</a></td>
+                                	</tr>
+                                    <tr>
+                                		<td>Invoices</td>
+                                		<td>Keep working when out of the office using Mobile Office. Get paid with credit cards, generate invoices, record your time and billing and sync to Quickbooks</td>
+                                		<td>8:07</td>
+                                		<td><a href="https://www.youtube.com/watch?v=38x1rhbeXTs">Video</a></td>
                                 	</tr>
                                 </tbody>
                             </table>
@@ -77,4 +94,4 @@
     </div>
 
     <!-- Footer -->
-<?php $this->load->view('layout/footer'); ?>
+<?php $this->load->view('member/layout/footer'); ?>

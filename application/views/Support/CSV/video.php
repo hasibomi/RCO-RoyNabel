@@ -54,7 +54,6 @@
                                 		<th>Description</th>
                                 		<th>Time (min:sec)</th>
                                 		<th>YouTube</th>
-                                		<th>YouTube Link</th>
                                 	</tr>
                                 </thead>
                                 
@@ -64,7 +63,6 @@
                                 		<td>CSVEditor has many functions that help you work with csv files. If you have to clean up data for a conversion or create test data files you will appreciate all the functions like detecting duplicates or creating random names or number sequences.</td>
                                 		<td>2:52</td>
                                 		<td><a href="https://www.youtube.com/watch?v=NWqr4qNve1w">Video</a></td>
-                                		<td>https://www.youtube.com/watch?v=NWqr4qNve1w</td>
                                 	</tr>
                                 </tbody>
                             </table>

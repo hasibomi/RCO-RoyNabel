@@ -54,7 +54,6 @@
                                 		<th>Description</th>
                                 		<th>Time (min:sec)</th>
                                 		<th>YouTube</th>
-                                		<th>YouTube Link</th>
                                 	</tr>
                                 </thead>
                                 
@@ -64,21 +63,18 @@
                                 		<td>Automate your workforce using smart phones or tables (android and apple). Generate invoices, track expenses, optimal job route, track inventory, time and billing, and synchronize to QuickBooks. Call 310-451-3735 for more information or to watch a demo.</td>
                                 		<td>1:00</td>
                                 		<td><a href="https://www.youtube.com/watch?v=KQnmLfohk0I">Video</a></td>
-                                		<td>https://www.youtube.com/watch?v=KQnmLfohk0I</td>
                                 	</tr>
                                     <tr>
                                 		<td>Inventory</td>
                                 		<td>RCO Inventory lets you do inventory using an ipad and bluetooth scanner.</td>
                                 		<td>5:00</td>
                                 		<td><a href="https://www.youtube.com/watch?v=Rk_BfCb9nJY">Video</a></td>
-                                		<td>https://www.youtube.com/watch?v=Rk_BfCb9nJY</td>
                                 	</tr>
                                     <tr>
                                 		<td>Invoices</td>
                                 		<td>Keep working when out of the office using Mobile Office. Get paid with credit cards, generate invoices, record your time and billing and sync to Quickbooks</td>
                                 		<td>8:07</td>
                                 		<td><a href="https://www.youtube.com/watch?v=38x1rhbeXTs">Video</a></td>
-                                		<td>https://www.youtube.com/watch?v=38x1rhbeXTs</td>
                                 	</tr>
                                 </tbody>
                             </table>

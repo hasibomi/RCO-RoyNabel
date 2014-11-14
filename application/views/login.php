@@ -37,7 +37,7 @@
 	
 	<div class="col-md-4 col-md-offset-4 panel panel-primary">
 		<!-- Form start -->
-		<?php echo form_open('login/validate_credentail', 'class="form-signin" id="form-login" autocomplete="off"')?>
+		<?php echo form_open('login/validate_credentail', 'class="form-signin" id="form-login" autocomplete="off" method="post"')?>
 		
 			<?php echo form_input(array('type' => 'email', 'name' => 'email', 'placeholder' => 'Email', 'class' => 'form-control', 'required' => 'required', 'autocomplete' => 'off')); ?>
 			

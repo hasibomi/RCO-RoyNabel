@@ -57,7 +57,30 @@ if ($this->uri->uri_string() == 'home') {
                     </li>
                     <li class="<?php echo $contact; ?>"><a href="<?php echo site_url('member/home/contact'); ?>">Contact</a>
                     </li>
-                    <li><a href="<?php echo site_url('member/home/logout') ?>">Logout</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" area-expanded="false">
+                            <?php
+                            $query = $this->db->get_where('user', array('email' => $this->session->userdata('email')));
+                            foreach($query->result() as $row)
+                            {
+                                echo ucfirst($row->fname);
+                            }
+                            ?>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="<?= site_url('member/home/settings'); ?>">
+                                    <span class="glyphicon glyphicon-wrench"></span> Settings
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo site_url('member/home/logout') ?>">
+                                    <span class="glyphicon glyphicon-log-out"></span> Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
 
 

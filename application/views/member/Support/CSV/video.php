@@ -1,28 +1,28 @@
-<?php $this->load->view('layout/header'); ?>
+<?php $this->load->view('member/layout/header'); ?>
 
     <!-- Menu -->
-<?php $this->load->view('layout/menu'); ?>
+<?php $this->load->view('member/layout/menu'); ?>
     <div class="custom-container-fuild">
         <div class="container">
-            <h1 class="page-header">Publish Support</h1>
+            <h1 class="page-header">CSV Editor Support</h1>
 
             <div class="custom-container">
-                <div class="col-md-3 col-sm-4 sidebar">
+                <div class="col-md-3 col-sm-2 sidebar">
                     <ul class="nav nav-stacked nav-pills">
                         <li>
-                            <a href="<?= site_url('home/publishsupport'); ?>">
-                                <img src="<?= base_url(); ?>public/images/Publish_state1_02.png" width="30" height="30" >
+                            <a href="<?= site_url('member/home/csvsupport'); ?>">
+                                <img src="<?= base_url(); ?>public/images/csveditor.png" width="30" height="30" >
                                 Welcome
                             </a>
                         </li>
                         <li>
-                            <a href="<?= site_url('home/publishmanual'); ?>">
+                            <a href="<?= site_url('member/home/csvmanual'); ?>">
                                 <img src="<?= base_url(); ?>public/images/manual.png" width="30" height="30" >
                                 Manuals
                             </a>
                         </li>
                         <li>
-                            <a href="<?= site_url('home/publishphone'); ?>">
+                            <a href="<?= site_url('member/home/csvphone'); ?>">
                                 <img src="<?= base_url(); ?>public/images/phone.png" width="30" height="30" >
                                 Contact Support
                             </a>
@@ -34,9 +34,14 @@
                             </a>
                         </li>
                         <li class="active">
-                            <a href="<?= site_url('home/publishvideo'); ?>">
+                            <a href="<?= site_url('member/home/csvvideo'); ?>">
                                 <img src="<?= base_url(); ?>public/images/youtube.png" width="40" height="30" >
                                 Videos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?= site_url('member/home/csvdownload'); ?>">
+                                <img src="<?= base_url(); ?>public/images/download.png" alt="" width="30" height="30"> Downloads
                             </a>
                         </li>
                     </ul>
@@ -44,7 +49,7 @@
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
                     <div class="col-md-12">
-                        <h3 class="page-header">Learn Mobile Office</h3>
+                        <h3 class="page-header">Learn CSV Editor</h3>
                         
                         <div class="table-responsive">
                         	<table class="table table-condensed table-striped table-hover">
@@ -59,22 +64,23 @@
                                 
                                 <tbody>
                                 	<tr>
-                                		<td>Overview</td>
-                                		<td>Share files securely with your customrer. Your customers can upload files and you receive email alerts when new files arrive.</td>
-                                		<td>4:09</td>
-                                		<td><a href="https://www.youtube.com/watch?v=m_PzW0bLM8U">Video</a></td>
+                                		<td>Getting Started</td>
+                                		<td>CSVEditor has many functions that help you work with csv files. If you have to clean up data for a conversion or create test data files you will appreciate all the functions like detecting duplicates or creating random names or number sequences.</td>
+                                		<td>2:52</td>
+                                		<td><a href="https://www.youtube.com/watch?v=NWqr4qNve1w">Video</a></td>
                                 	</tr>
                                 </tbody>
                             </table>
                         </div>
+                        
                     </div>
                 </div>
-            </div>
+             </div>
+          </div>
             <br>
             <br>
-        </div>
+      </div>
         <!-- /.container -->
-    </div>
 
     <!-- Footer -->
-<?php $this->load->view('layout/footer'); ?>
+<?php $this->load->view('member/layout/footer'); ?>

@@ -48,6 +48,7 @@ if ($this->uri->uri_string() == 'home') {
     <!-- Add custom CSS here -->
     <link href="<?php echo base_url(); ?>public/css/modern-business.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>public/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>public/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
