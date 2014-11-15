@@ -39,12 +39,17 @@
                                 Videos
                             </a>
                         </li>
+                        <li>
+                            <a href="<?= site_url('home/publishdownload'); ?>">
+                                <img src="<?= base_url(); ?>public/images/download.png" alt="" width="30" height="30"> Downloads
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
                     <div class="col-md-9">
-                        <h3>Please read the manual</h3>
+                        <h3 class="page-header">Please read the manual</h3>
                         <p>
                             <a href="<?= base_url('public/manuals/publish/SyncUserGuide.pdf'); ?>">Read</a>
                         </p>

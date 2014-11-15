@@ -39,12 +39,17 @@
                                 Videos
                             </a>
                         </li>
+                        <li>
+                            <a href="<?= site_url('home/scandownload'); ?>">
+                                <img src="<?= base_url(); ?>public/images/download.png" alt="" width="30" height="30"> Downloads
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
                     <div class="col-md-12">
-                        <h3>Welcome</h3>
+                        <h3 class="page-header">Welcome</h3>
                         <p>
                             <a href="<?= site_url('home/scanvideo'); ?>">Watch videos</a>, <a href="<?= site_url('home/scanmanual'); ?>">read the manual</a> and <a href="<?= site_url('home/scanphone'); ?>">contact support</a>
                         </p>

@@ -39,6 +39,11 @@
                                 Videos
                             </a>
                         </li>
+                        <li>
+                            <a href="<?= site_url('home/scandownload'); ?>">
+                                <img src="<?= base_url(); ?>public/images/download.png" alt="" width="30" height="30"> Downloads
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->

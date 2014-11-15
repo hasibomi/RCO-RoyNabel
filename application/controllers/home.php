@@ -51,6 +51,7 @@ class Home extends CI_Controller
     public function mobilemanual() { $this->load->view('Support/Mobile/manual'); }
     public function mobilephone() { $this->load->view('Support/Mobile/contact'); }
     public function mobilevideo() { $this->load->view('Support/Mobile/video'); }
+    public function mobiledownload() { $this->load->view('support/Mobile/download'); }
 
 	/**
 	 * CSV Editor support page
@@ -59,6 +60,7 @@ class Home extends CI_Controller
     public function csvmanual() { $this->load->view('Support/CSV/manual'); }
     public function csvphone() { $this->load->view('Support/CSV/contact'); }
     public function csvvideo() { $this->load->view('Support/CSV/video'); }
+    public function csvdownload() { $this->load->view('support/CSV/download'); }
 
 	/**
 	 * Labels support page
@@ -67,6 +69,7 @@ class Home extends CI_Controller
     public function labelmanual() { $this->load->view('Support/Label/manual'); }
     public function labelphone() { $this->load->view('Support/Label/contact'); }
     public function labelvideo() { $this->load->view('Support/Label/video'); }
+    public function labeldownload() { $this->load->view('support/Label/download'); }
 
 	/**
 	 * Scan support page
@@ -75,6 +78,7 @@ class Home extends CI_Controller
     public function scanmanual() { $this->load->view('Support/Scan/manual'); }
     public function scanphone() { $this->load->view('Support/Scan/contact'); }
     public function scanvideo() { $this->load->view('Support/Scan/video'); }
+    public function scandownload() { $this->load->view('support/Scan/download'); }
 
 	/**
 	 * Publish support page
@@ -83,6 +87,7 @@ class Home extends CI_Controller
     public function publishmanual() { $this->load->view('Support/Publish/manual'); }
     public function publishphone() { $this->load->view('Support/Publish/contact'); }
     public function publishvideo() { $this->load->view('Support/Publish/video'); }
+    public function publishdownload() { $this->load->view('support/Publish/download'); }
 
 	/**
 	 * Contact page

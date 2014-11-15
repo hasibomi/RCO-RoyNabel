@@ -39,12 +39,17 @@
                                 Videos
                             </a>
                         </li>
+                        <li>
+                            <a href="<?= site_url('home/publishdownload'); ?>">
+                                <img src="<?= base_url(); ?>public/images/download.png" alt="" width="30" height="30"> Downloads
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.col-md-3.col-sm-4.sidebar -->
                 <div id="support">
                     <div class="col-md-12">
-                        <h3 class="page-header">Learn Mobile Office</h3>
+                        <h3 class="page-header">Learn Publish</h3>
                         
                         <div class="table-responsive">
                         	<table class="table table-condensed table-striped table-hover">
