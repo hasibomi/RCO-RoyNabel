@@ -27,6 +27,23 @@
     overflow: auto;
     height: 100%;
 }
+.footer-jumbotron {
+    margin-bottom: 0;
+}
+ul.footer {
+    width: 35%;
+    margin: auto;
+}
+ul.footer > li {
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+}ul.footer > li.first {
+     list-style: none;
+ }
+ul.footer > li.copy {
+    list-style: none;
+}
 .custom-container-fuild {
     width: 100%;
     background-color: #eee;

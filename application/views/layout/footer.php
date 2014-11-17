@@ -1,3 +1,14 @@
+
+    <div class="jumbotron footer-jumbotron">
+        <div class="container">
+            <ul class="footer">
+                <li class="first"><a href="<?= site_url('home/contact')?>">Contact Us</a></li>
+                <li><a href="<?= site_url('home/support'); ?>">Support</a></li>
+                <li class="copy">Copy right &copy; 2014 RCO</li>
+            </ul>
+        </div>
+    </div> <!-- /.jumbotron -->
+
     <!-- JavaScript -->
     <script src="<?php echo base_url(); ?>public/js/jquery-1.10.2.js"></script>
     <script src="<?php echo base_url(); ?>public/js/bootstrap.js"></script>
